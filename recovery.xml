@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- REMOVALS (must be at the top) -->
+    <remove-project name="LineageOS/android_bootable_recovery" />
+    <remove-project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
+    <remove-project path="build" name="LineageOS/android_build" groups="pdk" />
+
+    <!-- COMMON -->
+    <!--project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />-->
+    <project path="external/busybox" name="SKYHAWK-Recovery-Project/android_external_busybox" remote="github" revision="android-9.0" />
+
+    <!-- TWRP -->
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />
+    <!-- datamedia patch -->
+    <!--project path="bootable/recovery" name="steadfasterX/bootable_recovery_twrp_fork"  remote="github" revision="android-9.0_datamedia-WIP3" />-->
+
+    <!-- SHRP -->
+    <!--project name="Suicide-Squirrel/shrp_bootable_recovery" path="bootable/recovery-shrp" remote="github" revision="sfX" />-->
+    <project name="shrp_bootable_recovery" path="bootable/recovery-shrp" remote="smt285" revision="gtexslte" />
+    <project path="vendor/shrp" name="android_vendor_shrp" remote="smt285" revision="gtexslte"/>
+    <project path="system/update_engine" name="SKYHAWK-Recovery-Project/android_system_update_engine" remote="github" revision="android-9.0"/>
+    <!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="SKYHAWK-Recovery-Project/external_magisk-prebuilt" remote="github" revision="master" />
+
+    <!-- SHRP hijacking aosp -->
+    <project path="build" name="android_build" remote="smt285" revision="cm-14.1_recovery" >
+	<copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="make/shrp" dest="build/shrp" />
+    </project>
+</manifest>
