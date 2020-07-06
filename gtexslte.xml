@@ -10,6 +10,7 @@
     <remove-project name="LineageOS/android_frameworks_av" />
     <remove-project name="LineageOS/android_frameworks_native" />
     <remove-project name="LineageOS/android_external_icu" />
+    <remove-project name="LineageOS/android_vendor_cm" />
 
     <!-- KERNEL -->
     <project name="kernel_samsung_gtexslte" path="kernel/samsung/gtexslte" remote="smt285" revision="android-7.1_testing" />
