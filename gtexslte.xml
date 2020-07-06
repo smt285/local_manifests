@@ -16,6 +16,7 @@
 
     <!-- GENERIC -->
     <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" />
+    <project name="android_vendor_cm" path="vendor/cm" remote="smt285" />
 
     <!-- DEVICE TREES -->
     <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" revision="cm-14.1_recovery" />
