@@ -23,8 +23,10 @@
     <project path="external/magisk-prebuilt" name="SKYHAWK-Recovery-Project/external_magisk-prebuilt" remote="github" revision="master" />
 
     <!-- SHRP hijacking aosp -->
+    <project path="build/make" name="shrp_build" remote="smt285" revision="android-9.0_gtexslte" >
+        <!-- linkfile src="make/shrp" dest="build/shrp" />-->
+    </project>
     <project path="build" name="android_build" remote="smt285" revision="cm-14.1_recovery" >
-	<copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="make/shrp" dest="build/shrp" />
+        <copyfile src="core/root.mk" dest="Makefile" />
     </project>
 </manifest>
