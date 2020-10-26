@@ -16,7 +16,7 @@
     <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" />
 
     <!-- DEVICE TREES -->
-    <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" />
+    <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" revision="eos-nougat" />
 
     <!-- LOS STUFF -->
 
