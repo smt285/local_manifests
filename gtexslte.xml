@@ -22,6 +22,7 @@
 
     <!-- SAMSUNG STUFF -->
     <project path="external/degas-mkbootimg" name="degas-mkbootimg" remote="smt285" revision="galaxy_tab_a_smt285" />
+    <project path="hardware/sprd" name="hardware_sprd" remote="smt285" revision="cm-14.1"/>
 
     <!-- discoveryOS -->
     <project path="vendor/dios" name="vendor_dios" remote="smt285" />
