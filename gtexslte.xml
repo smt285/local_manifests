@@ -23,9 +23,6 @@
     <!-- SAMSUNG STUFF -->
     <project path="external/degas-mkbootimg" name="degas-mkbootimg" remote="smt285" revision="galaxy_tab_a_smt285" />
 
-    <!-- F-DROID -->
-    <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
-
     <!-- discoveryOS -->
     <project path="vendor/dios" name="vendor_dios" remote="smt285" />
 
