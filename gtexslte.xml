@@ -8,14 +8,6 @@
 	    fetch="ssh://git@github.com/Suicide-Squirrel/" />
 
     <!-- REMOVALS (must be at the TOP) -->
-    <remove-project name="LineageOS/android_system_core" />
-    <remove-project name="LineageOS/android_bionic" />
-    <remove-project name="LineageOS/android_frameworks_av" />
-    <remove-project name="LineageOS/android_frameworks_native" />
-    <!--remove-project name="LineageOS/android_hardware_libhardware" />-->
-    <remove-project name="LineageOS/android_build" />
-
-    <remove-project name="LineageOS/android_external_icu" />
 
     <!-- KERNEL -->
     <project name="kernel_samsung_gtexslte" path="kernel/samsung/gtexslte" remote="smt285" revision="android-7.1_testing" />
@@ -29,18 +21,7 @@
     <!-- LOS STUFF -->
 
     <!-- SAMSUNG STUFF -->
-    <project name="android_system_core" path="system/core" remote="smt285" revision="cm-14.1_synced" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="smt285" revision="cm-14.1_synced"/>
-    <project path="frameworks/native" name="android_frameworks_native" remote="smt285" revision="cm-14.1_synced"/>
-    <project path="hardware/sprd" name="hardware_sprd" remote="smt285" revision="cm-14.1"/>
-    <project path="bionic" name="android_bionic" remote="smt285" revision="cm-14.1_synced"/>
-    <!--project path="hardware/libhardware" name="android_hardware_libhardware" remote="smt285" revision="cm-14.1_synced"/>-->
-    <project path="build" name="android_build" remote="smt285" revision="cm-14.1_synced">
-      <copyfile src="core/root.mk" dest="Makefile" />
-    </project>
-
     <project path="external/degas-mkbootimg" name="degas-mkbootimg" remote="smt285" revision="galaxy_tab_a_smt285" />
-    <project path="external/icu" name="jedld/android_external_icu" remote="github" revision="cm-14.1" />
 
     <!-- F-DROID -->
     <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
