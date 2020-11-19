@@ -16,7 +16,7 @@
     <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" revision="android-7.1" />
 
     <!-- DEVICE TREES -->
-    <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" revision="eos-nougat" />
+    <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" revision="dios-nougat" />
 
     <!-- LOS STUFF -->
 
@@ -25,6 +25,6 @@
     <project path="hardware/sprd" name="hardware_sprd" remote="smt285" revision="cm-14.1"/>
 
     <!-- discoveryOS -->
-    <project path="vendor/dios" name="vendor_dios" remote="smt285" />
+    <project path="vendor/dios" name="vendor_dios" remote="smt285" revision="dios-nougat" />
 
 </manifest>
