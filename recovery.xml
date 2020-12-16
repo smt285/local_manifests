@@ -10,7 +10,7 @@
     <project path="external/busybox" name="SKYHAWK-Recovery-Project/android_external_busybox" remote="github" revision="android-9.0" />
 
     <!-- TWRP -->
-    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />
+    <project name="TeamWin/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />
     <!-- datamedia patch -->
     <!--project path="bootable/recovery" name="steadfasterX/bootable_recovery_twrp_fork"  remote="github" revision="android-9.0_datamedia-WIP3" />-->
 
