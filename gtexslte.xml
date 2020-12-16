@@ -5,30 +5,21 @@
            revision="cm-14.1" />
 
     <!-- REMOVALS (must be at TOP) -->
-    <remove-project name="LineageOS/android_system_core" />
-    <remove-project name="LineageOS/android_bionic" />
-    <remove-project name="LineageOS/android_frameworks_av" />
-    <remove-project name="LineageOS/android_frameworks_native" />
-    <remove-project name="LineageOS/android_external_icu" />
     <remove-project name="LineageOS/android_vendor_cm" />
 
     <!-- KERNEL -->
     <project name="kernel_samsung_gtexslte" path="kernel/samsung/gtexslte" remote="smt285" revision="android-7.1_testing" />
 
     <!-- GENERIC -->
-    <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" />
+    <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" revision="android-7.1" />
     <project name="android_vendor_cm" path="vendor/cm" remote="smt285" />
 
     <!-- DEVICE TREES -->
     <project name="device_samsung_gtexslte" path="device/samsung/gtexslte" remote="smt285" revision="cm-14.1_recovery" />
 
     <!-- SAMSUNG STUFF -->
-    <project name="android_system_core" path="system/core" remote="smt285" revision="cm-14.1_synced" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="smt285" revision="cm-14.1_synced"/>
-    <project path="frameworks/native" name="android_frameworks_native" remote="smt285" revision="cm-14.1_synced"/>
-    <project path="hardware/sprd" name="hardware_sprd" remote="smt285" revision="cm-14.1"/>
-    <project path="bionic" name="android_bionic" remote="smt285" revision="cm-14.1_synced"/>
     <project path="external/degas-mkbootimg" name="degas-mkbootimg" remote="smt285" revision="galaxy_tab_a_smt285" />
-    <project path="external/icu" name="jedld/android_external_icu" remote="github" revision="cm-14.1" />
+    <project path="hardware/sprd" name="hardware_sprd" remote="smt285" revision="cm-14.1"/>
+    <project path="external/android_patches" name="android_patches" remote="smt285" revision="lineage-14.1"/>
 
 </manifest>
