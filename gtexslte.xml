@@ -8,7 +8,7 @@
     <remove-project name="LineageOS/android_vendor_cm" />
 
     <!-- KERNEL -->
-    <project name="kernel_samsung_gtexslte" path="kernel/samsung/gtexslte" remote="smt285" revision="android-7.1_testing" />
+    <project name="kernel_samsung_gtexslte" path="kernel/samsung/gtexslte" remote="smt285" revision="android-7.1_permissive" />
 
     <!-- GENERIC -->
     <project name="vendor_samsung_gtexslte" path="vendor/samsung/gtexslte" remote="smt285" revision="android-7.1" />
