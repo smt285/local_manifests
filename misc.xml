@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sfX" fetch="https://github.com/sfX-Android/" />
+  
+  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+  
+  <!-- REMOVALS (must be at TOP)
+  #####################################################-->
+  <!--N/A-->
+
+  <!-- MISC
+  #####################################################-->
+  <!-- FDroid -->
+  <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="master" />
+  
+  <!-- extendrom -->
+  <project path="vendor/extendrom" name="android_vendor_extendrom" remote="sfX" revision="main" />
+</manifest>
