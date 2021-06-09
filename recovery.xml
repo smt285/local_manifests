@@ -10,7 +10,7 @@
 
     <!-- SHRP -->
     <!--project name="SHRP/bootable_recovery" path="bootable/recovery-shrp" remote="github" revision="android-9.0" /> -->
-    <project name="SHRP/bootable_recovery" path="bootable/recovery-shrp" remote="github" revision="android-9.0_fixnougatbuild" />
+    <project name="SHRP/bootable_recovery" path="bootable/recovery-shrp" remote="github" revision="android-7.1" />
 
     <project path="vendor/shrp" name="SHRP/android_vendor_shrp" remote="github" revision="v3"/>
     <project path="system/update_engine" name="SHRP/android_system_update_engine" remote="github" revision="android-9.0"/>
